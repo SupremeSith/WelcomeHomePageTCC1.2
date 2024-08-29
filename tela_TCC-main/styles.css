@@ -1,0 +1,303 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+
+
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 100px;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-cabecalho {
+    max-width: 50%;
+}
+
+.cabecalho h1 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+.conteudo-cabecalho img {
+    width: 430px;
+    height: 100px;
+}
+
+
+.destaque {
+    
+    font-size: 45px;
+    color: #B01818;
+}
+
+.cabecalho p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.carousel-wrapper {
+    width: 110%;
+    max-width: 450px;
+    aspect-ratio: 10/7;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 2rem;
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    transition: transform 700ms ease-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+  }
+  
+  .carousel-wrapper .btn {
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.388);
+    color: #ffffff6d;
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  /* Seta */
+  .carousel-wrapper .btn:hover {
+    background: rgba(255, 255, 255, 0.913);
+    color: #0c09096d;
+  }
+  
+  .btn.previous {
+    
+    top: 50%;
+    left: 0;
+  }
+  .btn.next {
+    top: 50%;
+    right: 0;
+  }
+
+
+
+
+
+
+
+.botao-cadastro {
+
+    padding: 12px 30px;
+    background-color: #B01818;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: background-color 2.3s ease;
+}
+
+
+
+.botao-cadastro:hover {
+    background-color: #9c0b0b;
+}
+
+
+
+
+
+
+
+
+.imagem-cabecalho img {
+    width: 700.93px;
+    height: 1080.80px;
+    border-radius: 20px 0px 0px 0px;
+    margin-top: -30px;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-cabecalho {       /* Estilos para as setas de navegação */
+    position: relative;
+}
+
+.imagem-cabecalho .material-symbols-outlined {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px; /* Ajuste o tamanho da seta conforme necessário */
+    color: #333; /* Cor da seta, ajuste conforme necessário */
+    cursor: pointer;
+}
+
+.imagem-cabecalho .material-symbols-outlined.arrow_back_ios {
+    left: -10px; /* Ajuste a posição da seta à esquerda */
+}
+
+.imagem-cabecalho .material-symbols-outlined.arrow_forward_ios {
+    right: -40px; /* Ajuste a posição da seta à direita */
+}
+
+
+
+/* Seção de Serviços */
+.servicos {
+    background-color: #ffffff;
+    text-align: center;
+    padding: -80px 100px;
+}
+
+.servicos h2 {
+    font-size: 2.6rem;
+    margin-top: -78px;
+    margin-bottom: 80px;
+    color: #333;
+}
+
+.container-servicos {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-servicos img {
+    background-color: #571df600;
+    border-radius: 10px;
+    width: 240px;
+    height: 300px;
+    padding: 30px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartao-servico {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.cartao-servico:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cartao-servico h3 {
+
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.cartao-servico p {
+    font-size: 0.9rem;
+    color: #3a07c9;
+}
+
+
+
+
+
+/* Seção de Salas */
+.salas {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.salas h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+-------------------------------------------- */
+/* Estilo Geral para a Seção */
+.Salas {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.Salas-text a {
+    font-size: 94px;
+    font-weight: bold;
+    color: #470fd2;
+}
+
+
+
+
+.Salas-text p:nth-child(2) {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.Salas-text p:last-child {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Estilo para os Botões */
+.botoes-salas {
+    width: 230px;
+    height: 440px;
+    padding-left:73%;
+    display: flex;
+    gap: 45px;
+}
+
+
+.botoes-salas img {
+    width: 100%;
+    height: 10%;
+    object-fit: cover; /* As imagens cobrirão toda a área da div */
+}
+
+
+
+
